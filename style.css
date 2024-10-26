@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 img {
   width: 400px;
   height: 400px;
@@ -23,4 +35,40 @@ h3 {
 
 h2 {
   font-size: 1.7em;
+}
+
+.recipes li {
+  list-style-type: none;
+  text-align: left;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.content {
+  text-align: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.quote {
+  margin-top: 30px;
+  font-size: 1.2em;
+}
+
+.content-recipe {
+  width: 800px;
+  height: 850px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.lists {
+  width: 400px;
+  height: 400px;
+  margin: 10px auto;
+  text-align: left;
 }
